@@ -20,6 +20,10 @@ Require the package for _amd64_ with:
 
     php composer.phar require lvitals/wkhtmltopdf-amd64 "0.1.2.1"
 
+And for _i386_ with:
+
+    php composer.phar require lvitals/wkhtmltopdf-i386 "0.1.2.1"
+
 The binary will then be located at:
 
     vendor/lvitals/wkhtmltopdf-amd64/bin/wkhtmltopdf-amd64
@@ -27,4 +31,3 @@ The binary will then be located at:
 Also a symlink will be created in your configured bin/ folder, for example:
 
     vendor/bin/wkhtmltopdf-amd64
-
